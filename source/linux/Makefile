@@ -7,7 +7,7 @@ OBJ_DIR = .#location to put object files relative to makefile
 BRAINOBJS = GBBrain GBBrainSpec GBStackBrain GBStackBrainOpcodes GBStackBrainPrimitives GBStackBrainSpec 
 SIDESOBJS = GBHardwareSpec GBRobotType GBScores GBSide GBSideReader 
 SIMULATIONOBJS = GBDecorations GBFood GBHardwareState GBMessages GBObject GBObjectWorld GBRobot GBSensorShot GBShot GBWorld 
-SUPPORTOBJS = GBColor GBDeletionReporter GBErrors GBFinePoint GBGraphics GBLongNumber GBMilliseconds GBModel GBNumber GBRandomState GBSound GBStringUtilities 
+SUPPORTOBJS = GBColor GBDeletionReporter GBErrors GBFinePoint GBGraphics GBMilliseconds GBModel GBNumber GBRandomState GBSound GBStringUtilities 
  
 #WJS 20051112 The .SUFFIXES line was in the makefile I copied - don't know if we need it or what it does 
 .SUFFIXES: .H .cpp 

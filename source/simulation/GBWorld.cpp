@@ -514,6 +514,9 @@ static void PutPercentCell(std::ofstream &f, bool html, const GBNumber &percent,
 const long kMinColorRounds = 10;
 
 //The low/high classification logic is duplicated from GBTournamentView::DrawItem.
+void GBWorld::DumpTournamentScores() {
+	DumpTournamentScores(true);
+}
 void GBWorld::DumpTournamentScores(bool html) {
 	std::ofstream f("tournament-scores.html", std::ios::app);
 	if ( !f.good() ) return;
